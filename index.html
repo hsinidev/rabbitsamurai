@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html manifest="offline.appcache">
+  <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-912D4ZR2HV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-912D4ZR2HV');
+</script>
+
+<!-- Robust Anti-Reload (Blocking Live Server) -->
+<script>
+(function() {
+    const block = (m) => console.log("Blocking reload attempt: " + m);
+    try {
+        // Simple override
+        window.location.reload = function() { block("location.reload"); };
+        window.history.go = function() { block("history.go"); };
+        window.location.replace = function() { block("location.replace"); };
+        
+        // Prevent meta refresh
+        const preventRefresh = () => {
+            const refresh = document.querySelector('meta[http-equiv="refresh"]');
+            if (refresh) {
+                console.log("Blocking meta refresh");
+                refresh.remove();
+            }
+        };
+        setInterval(preventRefresh, 1000);
+
+        // Block beforeunload popup if it exists
+        window.addEventListener('beforeunload', (event) => {
+            event.stopImmediatePropagation();
+        }, true);
+
+    } catch(e) { console.error("Reload fix error:", e); }
+})();
+</script>
+
+        
+        
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Rabbitsamurai - Play Online for Free</title>
+    <meta name="description" content="Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!"> 
+    <meta name="author" content="HSINI">
+    <link rel="shortcut icon" href="../../images/ico.ico">
+    <script src="../../storage/js/cloak.js"></script>
+
+    <link rel="manifest" href="appmanifest.json" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      html,
+      body {
+        background: #000;
+        color: #fff;
+        overflow: hidden;
+        touch-action: none;
+        -ms-touch-action: none;
+      }
+      canvas {
+        touch-action: none;
+        -ms-touch-action: none;
+      }
+    </style>
+  
+    <meta property="og:title" content="Rabbitsamurai - Play Online for Free">
+    <meta property="og:description" content="Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/rabbitsamurai/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Rabbitsamurai",
+  "description": "Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!",
+  "url": "https://unlockedgames.io/rabbitsamurai/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}</script>
+
+    <meta property="og:title" content="Rabbitsamurai - Play Online for Free">
+    <meta property="og:description" content="Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/rabbitsamurai/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Rabbitsamurai",
+  "description": "Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!",
+  "url": "https://unlockedgames.io/rabbitsamurai/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}</script>
+
+    <meta property="og:title" content="Rabbitsamurai - Play Online for Free">
+    <meta property="og:description" content="Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/rabbitsamurai/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Rabbitsamurai",
+  "description": "Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!",
+  "url": "https://unlockedgames.io/rabbitsamurai/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}</script>
+
+    <meta property="og:title" content="Rabbitsamurai - Play Online for Free">
+    <meta property="og:description" content="Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/rabbitsamurai/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Rabbitsamurai",
+  "description": "Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!",
+  "url": "https://unlockedgames.io/rabbitsamurai/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "author": {
+    "@type": "Person",
+    "name": "HSINI"
+  }
+}</script>
+
+    <meta property="og:title" content="Rabbitsamurai - Play Online for Free">
+    <meta property="og:description" content="Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unlockedgames.io/rabbitsamurai/">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": [
+    "VideoGame",
+    "SoftwareApplication"
+  ],
+  "name": "Rabbitsamurai",
+  "description": "Play Rabbitsamurai online for free. Unblocked and available on all devices. Experience the best Rabbitsamurai gameplay now!",
+  "url": "https://unlockedgames.io/rabbitsamurai/",
+  "applicationCategory": "Game",
+  "operatingSystem": "Any",
+  "genre": "Arcade",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "author": {
+    "@type": "Person",
+    "name": "HSINI"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "hsinidev"
+  }
+}</script>
+</head>
+  <body>
+    <script type="b045aebe46709cd40b10bed2-text/javascript">
+      // Issue a warning if trying to preview an exported project on disk.
+      (function(){
+      	// Check for running exported on file protocol
+      	if (window.location.protocol.substr(0, 4) === "file")
+      	{
+      		alert("Exported games won't work until you upload them. (When running on the file:/// protocol, browsers block many features from working for security reasons.)");
+      	}
+      })();
+    </script>
+    <div id="c2canvasdiv">
+      <canvas id="c2canvas" width="640" height="1000">
+        <h1>
+          Your browser does not appear to support HTML5. Try upgrading your browser to the latest version. <a href="http://www.whatbrowser.org">What is a browser?</a> <br />
+          <br />
+          <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br />
+          <a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br />
+          <a href="http://www.google.com/chrome/">Google Chrome</a><br />
+          <a href="http://www.apple.com/safari/download/">Apple Safari</a>
+        </h1>
+      </canvas>
+    </div>
+    <script src="/js/main.js"></script>
+    <script src="jquery-2.1.1.min.js" type="b045aebe46709cd40b10bed2-text/javascript"></script>
+    <script src="pathfind.js" type="b045aebe46709cd40b10bed2-text/javascript"></script>
+
+    <script src="c2runtime.js" type="b045aebe46709cd40b10bed2-text/javascript"></script>
+    <script type="b045aebe46709cd40b10bed2-text/javascript">
+      // Start the Construct 2 project running on window load.
+      jQuery(document).ready(function ()
+      {
+      	// Create new runtime using the c2canvas
+      	cr_createRuntime("c2canvas");
+      });
+
+        /////////////////////////////////////////////////////////////////////////////
+        // BEGIN: postMessage support for suspend
+        /////////////////////////////////////////////////////////////////////////////
+
+        var isPaused = false;
+
+        window.addEventListener("message", function(event) {
+          switch(event.data) {
+            case 'game:suspend':
+              isPaused = true;
+              onVisibilityChanged();
+              break;
+
+            case 'game:resume':
+              isPaused = false;
+              onVisibilityChanged();
+              break;
+          }
+        }, false);
+
+      // Pause and resume on page becoming visible/invisible
+      function onVisibilityChanged() {
+      	if (isPaused || document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
+      		cr_setSuspended(true);
+      	else
+      		cr_setSuspended(false);
+      };
+
+      document.addEventListener("visibilitychange", onVisibilityChanged, false);
+      document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+      document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+      document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+
+        /////////////////////////////////////////////////////////////////////////////
+        // END: postMessage support for suspend
+        /////////////////////////////////////////////////////////////////////////////
+
+      function OnRegisterSWError(e)
+      {
+      	console.warn("Failed to register service worker: ", e);
+      };
+
+      // Runtime calls this global method when ready to start caching (i.e. after startup).
+      // This registers the service worker which caches resources for offline support.
+      window.C2_RegisterSW = function C2_RegisterSW()
+      {
+      	if (!navigator.serviceWorker)
+      		return;		// no SW support, ignore call
+
+      	try {
+      		navigator.serviceWorker.register("sw.js", { scope: "./" })
+      		.then(function (reg)
+      		{
+      			console.log("Registered service worker on " + reg.scope);
+      		})
+      		.catch(OnRegisterSWError);
+      	}
+      	catch (e)
+      	{
+      		OnRegisterSWError(e);
+      	}
+      };
+    </script>
+    <script src="rocket-loader.min.js" data-cf-settings="b045aebe46709cd40b10bed2-|49" defer=""></script>
+  
+<!-- SEO CONTENT (Hidden) -->
+<div class="seo-generated-content" style="display:none; visibility:hidden;">
+# Rabbitsamurai: A Comprehensive Guide to Success
+
+## Game Overview
+### What is it?
+Rabbitsamurai is a turn-based strategy game where players take on the role of a samurai warrior who must defend their village from invading rabbits.
+
+# How to Play
+### Controls and Objective
+• Use your mouse to move your samurai warriors up, down, left, or right.
+• Tap on an enemy rabbit to attack it.
+• Your goal is to protect your villagers from all incoming rabbits while defending your own territory.
+
+## Tips and Tricks for Success
+
+### Defending the Village
+- Keep a large army of samurai at home to defend against early invaders.
+- Use traps and towers strategically to funnel rabbits into kill zones.
+- Upgrade your samurai to increase their attack power and survivability.
+
+### Outmaneuvering the Rabbits
+- Use your territory's terrain to your advantage, such as by placing a trap near an enemy rabbit.
+- Move your samurai quickly and efficiently to avoid being caught in a rabbit's line of fire.
+- Communicate with your village (if you have one) about incoming rabbits and plan accordingly.
+
+### Rabbit Patterns
+- Be aware of the rabbits' movement patterns, such as their speed and aggression level.
+- Use this knowledge to place traps or defend specific areas.
+
+### Village Defense
+- Upgrade your village's defenses (towers, traps, etc.) regularly to increase its survivability.
+- Recruit villagers with high health and attack power to fight alongside you.
+- Keep a healthy army at home to respond quickly to rabbit attacks.
+
+## Why You Should Play It
+
+### Engaging Gameplay
+- Rabbitsamurai combines strategic thinking with fast-paced action.
+- Each battle is unique, requiring adaptability and quick decision-making.
+
+### Deep Strategy
+- As players progress, the game introduces new features and challenges that require careful planning.
+- Mastering these strategies can lead to a sense of accomplishment and satisfaction.
+
+### Accessible to Fans of Strategy Games
+- The game's simple yet complex controls make it accessible to fans of turn-based strategy games.
+- The depth of gameplay allows experienced players to delve deeper into the strategy aspects.
+</div>
+<script>
+    // Silently block specific Live Server reload triggers if possible
+    
+</script>
+</body>
+</html>
